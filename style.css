@@ -1,0 +1,70 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4ece6; /* Light tan */
+    color: #1a1a1a; /* Black */
+    text-align: center;
+}
+
+/* Banner styling */
+.banner {
+    background-color: #d3c4f3; /* Pastel purple */
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/* Banner icons */
+.banner-icon {
+    background-color: #1a1a1a; /* Black */
+    color: #f4ece6; /* Light tan */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.banner-icon:hover {
+    background-color: #7d68c4; /* Slightly darker pastel purple */
+}
+
+/* Main heading styling */
+h1 {
+    margin-top: 20px;
+    font-size: 2em;
+    color: #1a1a1a; /* Black */
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.1em;
+    color: #3a3a3a;
+    margin-bottom: 30px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #d3c4f3; /* Pastel purple */
+    border: none;
+    color: #1a1a1a; /* Black */
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #b09ad8; /* Slightly darker purple */
+    transform: scale(1.05);
+}
